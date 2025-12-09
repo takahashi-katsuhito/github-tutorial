@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain_openai import ChatOpenAI
 
-st.title("LangChain × Streamlit Chatbot")
+st.title("LangChain & Streamlit Chatbot")
 
 openai_api_key = st.text_input("OpenAI API Key", type="password")
 
